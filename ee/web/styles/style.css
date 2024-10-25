@@ -1,0 +1,99 @@
+/* Archivo styles.css */
+
+/* Resetear márgenes y padding de todos los elementos */
+* {
+    margin: 0;
+        padding: 0;
+        }
+
+        /* Estilo para el cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif;
+                line-height: 1.6;
+                }
+
+                /* Estilo para el título h1 */
+                h1 {
+                    color: orange;
+                        font-family: Verdana, sans-serif;
+                            text-align: center;
+                            }
+
+                            /* Estilo para el menú de navegación */
+                            nav {
+                                background-color: #333;
+                                    color: white;
+                                        padding: 10px;
+                                            text-align: center;
+                                                font-size: 18px;
+                                                }
+
+                                                /* Estilo para los artículos */
+                                                article {
+                                                    background-color: #f4f4f4;
+                                                        padding: 15px;
+                                                            margin: 10px 0;
+                                                            }
+
+                                                            /* Estilo para enlaces dentro de los artículos */
+                                                            article span a {
+                                                                color: blue;
+                                                                    text-decoration: none;
+                                                                    }
+
+                                                                    /* Estilo para el contenedor de noticias (aside) */
+                                                                    aside {
+                                                                        background-color: #e2e2e2;
+                                                                            padding: 15px;
+                                                                                margin: 10px 0;
+                                                                                }
+
+                                                                                /* Estilos específicos para clases */
+                                                                                .destacado {
+                                                                                    color: orange;
+                                                                                        font-weight: bold;
+                                                                                        }
+
+                                                                                        .error {
+                                                                                            color: red;
+                                                                                            }
+
+                                                                                            .alerta {
+                                                                                                color: yellow;
+                                                                                                    background-color: black;
+                                                                                                    }
+
+                                                                                                    /* Estilos para elementos con ID */
+                                                                                                    #destacado {
+                                                                                                        background-color: coral;
+                                                                                                            padding: 10px;
+                                                                                                                font-size: 16px;
+                                                                                                                }
+
+                                                                                                                /* Modelo de caja para un div */
+                                                                                                                div {
+                                                                                                                    width: 300px;
+                                                                                                                        padding: 10px;
+                                                                                                                            border: 2px solid black;
+                                                                                                                                margin: 20px auto;
+                                                                                                                                    background-color: #fafafa;
+                                                                                                                                    }
+
+                                                                                                                                    /* Fondo de la página y color de fondo */
+                                                                                                                                    body {
+                                                                                                                                        background-color: #f8f9fa;
+                                                                                                                                        }
+
+                                                                                                                                        /* Ejemplo de fondo con imagen */
+                                                                                                                                        div#con-imagen {
+                                                                                                                                            background-image: url('imagen.jpg');
+                                                                                                                                                background-size: cover;
+                                                                                                                                                }
+
+                                                                                                                                                /* Estilo para el pie de página */
+                                                                                                                                                footer {
+                                                                                                                                                    text-align: center;
+                                                                                                                                                        padding: 10px;
+                                                                                                                                                            background-color: #333;
+                                                                                                                                                                color: white;
+                                                                                                                                                                }
